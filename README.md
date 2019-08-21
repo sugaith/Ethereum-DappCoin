@@ -1,4 +1,6 @@
-#DappToken: A CRYPTOCURRENCY AND ICO EXAMPLE / UM EXEMPLO DE CRYPTOMOEDA E ICO  
+#SugEther: A CRYPTOCURRENCY AND ICO EXAMPLE BASED IN ETHEREUM BLOCKCHAIN   
+#SugEther: UM EXEMPLO DE CRYPTOMOEDA E ICO BASEADO EM ETHEREUM BLOCKCHAIN   
+
 - credits: Dapp University (https://www.youtube.com/watch?v=XdKv5uwEk5A)
 
 
@@ -25,11 +27,16 @@
 - open console and open TRUFFLE
     - type "truffle" on project folder
     - usefull test commands:
-        - DappToken.deployed().then(function(i){token=i;})
-        - token.totalSupply().then(function(s){totalSupply = s;})
-        - token.address
-        - totalSupply or totalSupply.toNumber()
-        - .exit
+        - $ DappToken.deployed().then(function(i){token=i;})
+        - $ token.totalSupply().then(function(s){totalSupply = s;})
+        - $ token.address
+        - $ totalSupply or totalSupply.toNumber()
+        - $ .exit
+        - web3 object (var to interact with smart contracts and the blockchain)
+            - $ web3.eth.accounts
+            - $ web3.eth.accounts[0]
+            - Do a transfer (https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#transfer)
+                - $ token.transfer(web3.eth.accounts[1], 1, { from: web3.eth.accounts[0] })
     
 ##Coding Smart Contracts
 

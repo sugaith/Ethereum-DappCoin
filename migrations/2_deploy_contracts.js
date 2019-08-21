@@ -1,5 +1,6 @@
 const DappToken = artifacts.require("./DappToken.sol");
 
 module.exports = function (deployer) {
-    deployer.deploy(DappToken);
+    deployer.deploy(DappToken , 1000000  ); //passint _initialSupply for constructor / passando _initialSupply para constutor do DappToken
+
 };
