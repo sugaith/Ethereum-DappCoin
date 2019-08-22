@@ -16,8 +16,10 @@
 
 ##Configuration 
 - crEate project folder and initiate truffle / cria pasta do projeto e inicia o truffle
-    - mkdir eth_token
-    - truffle init
+    - $ mkdir eth_token
+    - $ truffle init
+    - $ truffle migrate --reset
+        - migrate contracts to the blockchain (--reset means replacing)
 
 - open ganache
 - Open with IDE / abrir com IDE
@@ -33,10 +35,14 @@
         - $ totalSupply or totalSupply.toNumber()
         - $ .exit
         - web3 object (var to interact with smart contracts and the blockchain)
-            - $ web3.eth.accounts
-            - $ web3.eth.accounts[0]
+            - $ web3.eth.accounts //older v.
+            - $ web3.eth.accounts[0] //older versions
+            - $ web3.eth.getAccounts()
+            - $ web3.eth.getAccounts().then(function(result){ account0 = result[0]; })
+
             - Do a transfer (https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#transfer)
                 - $ token.transfer(web3.eth.accounts[1], 1, { from: web3.eth.accounts[0] })
+            - do a approval and trasnferfrom... 
     
 ##Coding Smart Contracts
 

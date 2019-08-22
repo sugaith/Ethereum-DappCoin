@@ -103,6 +103,7 @@ contract DappToken{ //ERC-20 standard!!!!!
 
         //require allowance is big anough
         require( _value <= allowance[_from][msg.sender]);
+//        require( _value <= allowance[msg.sender][_from]);
 
         //trasnfer values
         balanceOf[_from] -= _value;
