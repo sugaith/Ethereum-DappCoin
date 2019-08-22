@@ -21,6 +21,11 @@ contract DappToken{ //ERC-20 standard!!!!!
     //para salver e acompanhar o saldo das contas ou endereços
     mapping( address => uint256 ) public balanceOf;
 
+    //matrix for allowance
+    //register and keep track of all approved trasnfers (allowances)
+    mapping( address => mapping( address => uint256 ) ) public allowance;
+
+
     //Event Transfer -> MUST be fire when transactions are made
     //https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#transfer-1
     event Transfer(
@@ -28,6 +33,15 @@ contract DappToken{ //ERC-20 standard!!!!!
         address indexed _to,
         uint256 _value
     );
+
+    //Event Approve
+    //https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md#approval
+    event Approval(
+        address indexed _ownder,//ownser approved
+        address indexed _spender,//spender to spend
+        uint256 _value//this money
+    );
+
 
     constructor(uint256 _initialSupply) public {
         /*
@@ -70,6 +84,42 @@ contract DappToken{ //ERC-20 standard!!!!!
         // return boolean
         return true;
     }
+
+    //approve
+    function approve( address _spender, uint256 _value) public returns (bool success){
+        //set allowance
+        allowance[msg.sender][_spender] = _value;
+
+        //emit Approval event (MUST)
+        emit Approval(msg.sender, _spender, _value);
+        //ret boolean
+        return true;
+    }
+
+    //transferFrom
+    function transferFrom( address _from, address _to, uint256 _value) public returns (bool success){
+        //require _from has tokans needes
+        require( _value <= balanceOf[_from] );
+
+        //require allowance is big anough
+        require( _value <= allowance[_from][msg.sender]);
+
+        //trasnfer values
+        balanceOf[_from] -= _value;
+        balanceOf[_to] += _value;
+
+        //update allowance
+        allowance[_from][msg.sender] -= _value;
+
+        //transfer event
+        emit Transfer(_from, _to, _value);
+
+
+        //ret boolean
+        return true;
+    }
+
+
 
 
 
