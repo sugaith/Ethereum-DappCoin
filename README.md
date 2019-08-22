@@ -1,4 +1,4 @@
-#SugEther: A CRYPTOCURRENCY AND ICO EXAMPLE BASED IN ETHEREUM BLOCKCHAIN   
+#SugEther: A CRYPTOCURRENCY AND ICO (iNITIAL cOIN oFFER) EXAMPLE BASED IN ETHEREUM BLOCKCHAIN   
 #SugEther: UM EXEMPLO DE CRYPTOMOEDA E ICO BASEADO EM ETHEREUM BLOCKCHAIN   
 
 - credits: Dapp University (https://www.youtube.com/watch?v=XdKv5uwEk5A)
@@ -54,6 +54,13 @@
 - folder test:    todo
     - to teste type 'truffle test' on project folder 
     - test example: todo
+    
+    
+##FOR ICO (INITIAL COIN OFFER): provision tokens to token sale contract
+- Set a token price in WEI
+- Assign an ADMIN
+- Buy tokens
+- End sale
 
 
     
