@@ -13,6 +13,9 @@
 - ganache (local inmemory ehtereum blockchain): https://www.trufflesuite.com/ganache
 - metamask for chrome (ether blockchain browser): https://metamask.io/
 - solidity IDE (JetBrains for me  - Solidity plugin) 
+- import lite-server using package.json or 
+    - $  npm install lite-server --save-dev ^2...
+    - https://github.com/johnpapa/lite-server
 
 ##Configuration 
 - crEate project folder and initiate truffle / cria pasta do projeto e inicia o truffle

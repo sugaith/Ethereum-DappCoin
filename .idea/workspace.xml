@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/README.MD" line="19" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/README.MD" line="22" mnemonic="4" />
     <bookmark url="file://$PROJECT_DIR$/test/SugEtherSale.js" line="40" mnemonic="1" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="68ac989b-5be4-408e-bb26-c222267eae59" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/contracts/SugEtherSale.sol" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/SugEtherSale.sol" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SugEtherSale.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/SugEtherSale.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,16 +22,34 @@
             <entry file="file://$PROJECT_DIR$/migrations/2_deploy_contracts.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="207">
-                  <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+                  <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/SugEtherSale.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="241">
+                  <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/frontEnd/js/app.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <caret column="40" selection-start-column="40" selection-end-column="40" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/SugEtherSale.js">
+            <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="678">
-                  <caret line="101" selection-start-line="101" selection-end-line="101" />
+                <state relative-caret-position="483">
+                  <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
                 </state>
               </provider>
             </entry>
@@ -41,7 +58,7 @@
             <entry file="file://$PROJECT_DIR$/test/DappToken.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="534">
-                  <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+                  <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -50,7 +67,7 @@
       </split-first>
       <split-second>
         <leaf>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/contracts/SugEtherSale.sol">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="655">
@@ -68,12 +85,12 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.MD">
               <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
                 <state split_layout="FIRST">
-                  <first_editor relative-caret-position="253">
-                    <caret line="11" column="101" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="101" />
+                  <first_editor relative-caret-position="368">
+                    <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
                   </first_editor>
                   <second_editor />
                 </state>
@@ -88,6 +105,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="package.json" />
+        <option value="tsconfig.json" />
       </list>
     </option>
   </component>
@@ -106,10 +125,19 @@
         <option value="$PROJECT_DIR$/truffle-config.js" />
         <option value="$PROJECT_DIR$/test/DappToken.js" />
         <option value="$PROJECT_DIR$/contracts/DappToken.sol" />
-        <option value="$PROJECT_DIR$/README.MD" />
         <option value="$PROJECT_DIR$/migrations/2_deploy_contracts.js" />
         <option value="$PROJECT_DIR$/contracts/SugEtherSale.sol" />
         <option value="$PROJECT_DIR$/test/SugEtherSale.js" />
+        <option value="$PROJECT_DIR$/README.MD" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/bs-config.json" />
+        <option value="$PROJECT_DIR$/frontEnd/js/index.html" />
+        <option value="$PROJECT_DIR$/frontEnd/css/bootstrap.min.css" />
+        <option value="$PROJECT_DIR$/frontEnd/js/bootstrap.min.js" />
+        <option value="$PROJECT_DIR$/frontEnd/js/web3.min.js" />
+        <option value="$PROJECT_DIR$/frontEnd/js/truffle-contract.min.js" />
+        <option value="$PROJECT_DIR$/frontEnd/js/app.js" />
+        <option value="$PROJECT_DIR$/frontEnd/index.html" />
       </list>
     </option>
   </component>
@@ -119,9 +147,11 @@
     <option name="width" value="1040" />
     <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -135,12 +165,19 @@
             <path>
               <item name="Ethereum DappCoin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="migrations" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="frontEnd" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Ethereum DappCoin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="test" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="frontEnd" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="css" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="Ethereum DappCoin" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="frontEnd" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="js" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -157,6 +194,17 @@
               <item name="Ethereum DappCoin" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ethereum DappCoin" type="462c0819:PsiDirectoryNode" />
               <item name="contracts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ethereum DappCoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ethereum DappCoin" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Ethereum DappCoin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Ethereum DappCoin" type="462c0819:PsiDirectoryNode" />
+              <item name="frontEnd" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Ethereum DappCoin" type="b2602c69:ProjectViewProjectNode" />
@@ -179,9 +227,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../DATACASE/eventu-app/Eventu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DADOS TRAMPO\GIT\tuts\Ethereum DappCoin\frontEnd" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\DADOS TRAMPO\GIT\tuts\block_chain_eth_token\migrations" />
     </key>
@@ -211,12 +263,12 @@
       <workItem from="1566344269820" duration="1008000" />
       <workItem from="1566345296929" duration="4217000" />
       <workItem from="1566404790075" duration="15000" />
-      <workItem from="1566405338744" duration="43689000" />
+      <workItem from="1566405338744" duration="46430000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48929000" />
+    <option name="totallyTimeSpent" value="51670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="-8" width="1862" height="1096" extended-state="6" />
@@ -269,7 +321,7 @@
     <entry file="file://$PROJECT_DIR$/migrations/2_deploy_contracts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -280,20 +332,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="253">
-            <caret line="11" column="101" selection-start-line="11" selection-start-column="79" selection-end-line="11" selection-end-column="101" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/DappToken.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="534">
-          <caret line="129" column="47" lean-forward="true" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -311,10 +353,82 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.MD">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="368">
+            <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4890" selection-start-line="6" selection-start-column="4890" selection-end-line="6" selection-end-column="4890" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/js/web3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="12993" selection-start-line="4" selection-start-column="12993" selection-end-line="4" selection-end-column="12993" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/js/truffle-contract.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="20970" selection-start-line="10" selection-start-column="20970" selection-end-line="10" selection-end-column="20970" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bs-config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="34" lean-forward="true" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/SugEtherSale.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="241">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" selection-start-column="40" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
         </state>
       </provider>
     </entry>

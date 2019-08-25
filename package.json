@@ -1,0 +1,19 @@
+{
+  "name": "sugether-dappcoin-sale",
+  "version": "1.0.0",
+  "description": "ICO for SugEther Sale",
+  "directories": {
+    "test": "test"
+  },
+  
+  "scripts": {
+    "dev": "lite-server"
+  },
+
+
+  "author": "Sugaith",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
