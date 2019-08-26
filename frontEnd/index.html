@@ -12,7 +12,61 @@
     </head>
 
     <body>
-        <h1>SugEther Tokens ICO</h1>
+        <div class="container" style="width: 700px">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1>SugEther Tokens ICO</h1>
+                    <hr/>
+                    <br/>
+                </div>
+                <div id="loader">
+                    <p class="text-center"> ...LOADING... </p>
+                </div>
+
+                <div id="content" class="text-center">
+                    <p>
+                        Introducing SugEther DappCoin!
+                        Token price is <span class="token-price"></span>.
+                        You currently have <span class="dapp-balance"></span> SUGs.
+                    </p>
+                    <br/>
+
+                    <form>
+                        <div>
+                            <input class="form-control input-lg" id="numberOfToken"
+                                type="number" name="number" value="1" min="1" pattern="[0-9]"
+                            />
+                            <span class="input-group-btn">
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    Buy SugEther Tokens
+                                </button>
+                            </span>
+                        </div>
+                    </form>
+                    <br/>
+
+                    <div class="progress">
+                        <div id="progress" class="progress-bar progress-bar-striped active"
+                            aria-valuemin="0" aria-valuemax="100"
+                        ></div>
+                    </div>
+
+                    <p>
+                        <span class="tokens-sold"></span> / <span class="tokens-available"></span> SUGs sold so far.
+                    </p>
+                    <hr/>
+
+                    <p id="accountAddress">
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

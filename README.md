@@ -65,6 +65,16 @@
 - Buy tokens
 - End sale
 
+##For inteface and Data Wiring (front end)
+- on folder frontEnd
+- frontEnd\js\web3.min.js --> web3 platform for accessing the Ethereum blockchain
+- frontEnd/js/app.js --> main Code where all get wired
+- $ npm run dev to run server and open browser
+
+#metamask phrase
+fine spring eight drastic light behave
+describe staff subway actor salad network
+
 
     
 
