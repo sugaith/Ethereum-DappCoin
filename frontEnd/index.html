@@ -23,16 +23,16 @@
                     <p class="text-center"> ...LOADING... </p>
                 </div>
 
-                <div id="content" class="text-center">
+                <div id="content" style="display: none;" class="text-center">
                     <p>
                         Introducing SugEther DappCoin!
-                        Token price is <span class="token-price"></span>.
-                        You currently have <span class="dapp-balance"></span> SUGs.
+                        Token price is <span id="token-price"></span>.
+                        You currently have <span id="dapp-balance"></span> SUGs.
                     </p>
                     <br/>
 
-                    <form>
-                        <div>
+                    <form onsubmit="App.buyTokens(); return false" role="form">
+                        <div class="form-group">
                             <input class="form-control input-lg" id="numberOfToken"
                                 type="number" name="number" value="1" min="1" pattern="[0-9]"
                             />
@@ -52,7 +52,7 @@
                     </div>
 
                     <p>
-                        <span class="tokens-sold"></span> / <span class="tokens-available"></span> SUGs sold so far.
+                        <span class="tokens-sold"></span> OF <span class="tokens-available"></span> SUGs sold so far.
                     </p>
                     <hr/>
 
