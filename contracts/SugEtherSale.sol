@@ -1,6 +1,6 @@
 pragma solidity >=0.4.21 <0.6.0;
 
-import "./Dapptoken.sol" ;
+import "./DappToken.sol" ;
 
 //todo
 // PROVISION TOKENS TO TOKEN SALE CONTRACT  //FORNECER TOKENS PARA VENDA
